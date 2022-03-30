@@ -3,7 +3,7 @@ import win32com.client
 import os
 from os.path import exists
 psApp = win32com.client.Dispatch("Photoshop.Application")
-psApp.Open(r"C:\Users\Administrator\Desktop\Python\photoshoPY\thumnail_P.psd")
+psApp.Open(r"C:\Users\Administrator\Desktop\Python\photoshoPY\thumnail_P.psd")  #mudar no seu pc
 doc = psApp.Application.ActiveDocument
 
 layerText = doc.ArtLayers["NOME1"] #selecionando a layer com o nome especifico
