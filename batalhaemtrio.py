@@ -15,9 +15,9 @@ texto_layer = layerText.TextItem #listar como texto
 texto_layer1 = layerText1.TextItem #listar como texto
 texto_layer2 = layerText2.TextItem #listar como texto
 
-texto_layer.contents = "abcd" #trocar o texto
-texto_layer1.contents = "abcd 1" #trocar o texto
-texto_layer2.contents = "abcd 2" #trocar o texto
+texto_layer.contents = "abcd" #trocar o texto (AQUI ONDE A MAGICA ACONTECE BICHO)
+texto_layer1.contents = "abcd 1" #trocar o texto (AQUI ONDE A MAGICA ACONTECE BICHO)
+texto_layer2.contents = "abcd 2" #trocar o texto (AQUI ONDE A MAGICA ACONTECE BICHO)
 
 save = win32com.client.Dispatch('Photoshop.ExportOptionsSaveForWeb') #selecionando a funçao de exportar 
 save.Format = 13 # formato que no caso, o png vale 13 na tabela
