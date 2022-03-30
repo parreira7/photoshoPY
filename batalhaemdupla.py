@@ -14,8 +14,8 @@ layerText2.visible = False # esconder pq é em dupla e nao precisa de 3 nomes
 texto_layer = layerText.TextItem #listar como texto
 texto_layer1 = layerText1.TextItem #listar como texto
 
-texto_layer.contents = "abcd" #trocar o texto (AQUI ONDE A MAGICA ACONTECE BICHO)
-texto_layer1.contents = "abcd 1" #trocar o texto (AQUI ONDE A MAGICA ACONTECE BICHO)
+texto_layer.contents = "abcd" #trocar o texto dentro das aspas (AQUI ONDE A MAGICA ACONTECE BICHO)
+texto_layer1.contents = "abcd 1" #trocar o texto dentro das aspas (AQUI ONDE A MAGICA ACONTECE BICHO)
 
 save = win32com.client.Dispatch('Photoshop.ExportOptionsSaveForWeb') #selecionando a funçao de exportar 
 save.Format = 13 # formato que no caso, o png vale 13 na tabela
